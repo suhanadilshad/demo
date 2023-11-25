@@ -1,0 +1,7 @@
+In this example, we create an HTML file with a <div> element with an ID of "clock" that will display the current time. We also include a <script> element that loads our JavaScript code from a separate file called "clock.js".
+
+In our JavaScript code, we define a function called "updateClock" that gets the current time using the Date() object and formats it into hours, minutes, and seconds using string manipulation. We then update the <div> element with the formatted time using the innerHTML property.
+
+We use the setInterval() method to call the updateClock function every second, which will update the clock display in real-time. Finally, we call the updateClock function once to initialize the clock when the page first loads.
+
+By refreshing the page, we can verify that the clock updates every second.

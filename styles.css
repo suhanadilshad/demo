@@ -1,0 +1,32 @@
+/* Set background color of page */
+
+body {
+    background-color: #f2f2f2;
+}
+
+
+/* Center the container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Style the clock */
+
+#clock {
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgMOCsF9aBN0ep32Zy5HYMS10NSQv6jH_qOg&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
